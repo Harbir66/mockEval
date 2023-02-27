@@ -1,0 +1,14 @@
+.sync-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 700px;
+}
+
+@media (max-width: 455px) {
+  .sync-page {
+    min-width: 455px;
+  }
+}

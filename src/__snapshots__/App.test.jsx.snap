@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<DocumentFragment>
+  <div
+    class="sync-page"
+  >
+    <header
+      class="header"
+    >
+      <span>
+        My 
+        <strong>
+          Record
+        </strong>
+         Shelf
+      </span>
+    </header>
+    <div
+      class="sync-body"
+    >
+      <div
+        class="sad-face"
+      >
+        :((
+      </div>
+      <div
+        class="sync-line"
+      >
+        seems a bit empty in here...
+      </div>
+      <button
+        class="sync-button"
+        data-testid="sync-button"
+        type="button"
+      >
+        <span>
+          sync
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

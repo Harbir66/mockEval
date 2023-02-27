@@ -1,0 +1,87 @@
+.songCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 270px;
+  width: 230px;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 15px 25px;
+  box-shadow: grey 5px 5px 20px;
+}
+
+.songCard > img {
+  /* margin: 10px; */
+  height: 190px;
+  width: 190px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.songCard .song-details {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.song-name {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.song-artist {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.song-likes {
+  font-size: 1.5rem;
+  font-weight: 200;
+  position: absolute;
+  margin: 0;
+}
+
+.like-button {
+  padding: 0;
+  width: 20%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like-button img {
+  padding: 0;
+  height: 55px;
+  width: 55px;
+}
+
+.color-1 {
+  background-color: #dfdfdf;
+}
+.color-2 {
+  background-color: #ababab;
+}
+
+@media (max-width: 455px) {
+  .songCard {
+    width: 90%;
+    height: 100%;
+    padding: 15px 5px;
+  }
+}

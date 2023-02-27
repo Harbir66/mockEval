@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenreSongs should render correctly when genre is Bollywood 1`] = `[Function]`;
+
+exports[`GenreSongs should render correctly when genre is Country 1`] = `[Function]`;
+
+exports[`GenreSongs should render correctly when genre is Pop 1`] = `[Function]`;
+
+exports[`GenreSongs should render correctly when genre is Rock 1`] = `[Function]`;

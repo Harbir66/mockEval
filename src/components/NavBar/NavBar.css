@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  flex: none;
+  background-color: #38497e;
+  padding: 10px 0;
+}
+
+span {
+  margin: 20px;
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #fff;
+}
+
+strong {
+  font-weight: bold;
+}
+
+@media (max-width: 455px) {
+  .header {
+    width: 100%;
+  }
+  /* span {
+    margin: 10px;
+    font-size: 1.5em;
+  } */
+}

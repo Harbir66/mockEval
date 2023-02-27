@@ -1,0 +1,40 @@
+.sync-body {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.sync-button {
+  margin-top: 20px;
+  padding: 15px;
+  border-style: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #4c63aa;
+  min-width: 350px;
+  width: 13%;
+}
+.sync-button span {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 455px) {
+  .sync-body {
+    font-size: 2rem;
+  }
+  .sync-button {
+    min-width: 200px;
+    width: 60%;
+  }
+  .sync-button span {
+    font-size: 2.5rem;
+  }
+}
